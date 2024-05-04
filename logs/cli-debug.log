@@ -1,0 +1,60 @@
+2024-05-02 23:58:13 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Users = null;` to your class definition or use `#[AllowDynamicProperties]` attribute.
+/var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Core/functions.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Core/functions.php, line 318
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 121
+Cake\Controller\Controller->loadModel() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /var/www/html/bookmarker/bin/cake.php, line 12
+[main]
+
+2024-05-02 23:58:29 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Bookmarks = null;` to your class definition or use `#[AllowDynamicProperties]` attribute.
+/var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Core/functions.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Core/functions.php, line 318
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 121
+Cake\Controller\Controller->loadModel() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /var/www/html/bookmarker/bin/cake.php, line 12
+[main]
+
+2024-05-02 23:58:33 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Tags = null;` to your class definition or use `#[AllowDynamicProperties]` attribute.
+/var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Core/functions.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Core/functions.php, line 318
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php, line 121
+Cake\Controller\Controller->loadModel() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line 258
+Bake\Command\TestCommand->bake() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/TestCommand.php, line 132
+Bake\Command\TestCommand->execute() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() /var/www/html/bookmarker/vendor/cakephp/bake/src/Command/AllCommand.php, line 115
+Bake\Command\AllCommand->execute() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() /var/www/html/bookmarker/bin/cake.php, line 12
+[main]
+

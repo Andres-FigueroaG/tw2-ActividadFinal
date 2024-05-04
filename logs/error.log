@@ -1,0 +1,2363 @@
+2024-05-02 23:57:13 error: [Cake\Http\Exception\MissingControllerException] Controller class Persona could not be found. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Persona',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Persona',
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /persona
+2024-05-03 00:04:10 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 396
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:172
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /users/add
+Referer URL: http://localhost:8765/users/add
+2024-05-03 01:08:16 error: [Error] Class "Router" not found in /var/www/html/bookmarker/config/routes.php on line 97
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:201
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:137
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:126
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:97
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged,
+2024-05-03 01:08:16 error: [Error] Class "Router" not found in /var/www/html/bookmarker/config/routes.php on line 97
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:201
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:137
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:126
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:97
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /debug-kit/toolbar/b8321fcc-7da6-47c2-9ebf-e5da86d04dbb
+Referer URL: http://localhost:8765/bookmarks/tagged,
+2024-05-03 01:08:59 error: [Error] Class "Router" not found in /var/www/html/bookmarker/config/routes.php on line 97
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:201
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:137
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:126
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:97
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged,
+2024-05-03 01:08:59 error: [Error] Class "Router" not found in /var/www/html/bookmarker/config/routes.php on line 97
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:201
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:137
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:126
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:97
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /debug-kit/toolbar/87bbfc7a-9f8b-4437-ae0e-97af2dc57820
+Referer URL: http://localhost:8765/bookmarks/tagged,
+2024-05-03 01:09:00 error: [Error] Class "Router" not found in /var/www/html/bookmarker/config/routes.php on line 97
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:201
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:137
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:126
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:97
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged,
+2024-05-03 01:09:00 error: [Error] Class "Router" not found in /var/www/html/bookmarker/config/routes.php on line 97
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:201
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:137
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:126
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:97
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /debug-kit/toolbar/164eab7d-046c-4107-97dc-25b4a0dc670c
+Referer URL: http://localhost:8765/bookmarks/tagged,
+2024-05-03 01:09:19 error: [Error] Class "Router" not found in /var/www/html/bookmarker/config/routes.php on line 97
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:201
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:137
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:126
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:97
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/frontend
+2024-05-03 01:09:19 error: [Error] Class "Router" not found in /var/www/html/bookmarker/config/routes.php on line 97
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:201
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:137
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:126
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:97
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /debug-kit/toolbar/ce00e885-2d85-414f-97db-e6ccaac9e5a0
+Referer URL: http://localhost:8765/bookmarks/tagged/frontend
+2024-05-03 01:09:54 error: [Error] Class "Router" not found in /var/www/html/bookmarker/config/routes.php on line 97
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:201
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:137
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:126
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:97
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:09:55 error: [Error] Class "Router" not found in /var/www/html/bookmarker/config/routes.php on line 97
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:201
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:137
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:126
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:97
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /debug-kit/toolbar/d23bdfa2-9134-4b04-aebf-233170771ab1
+Referer URL: http://localhost:8765/bookmarks/tagged
+2024-05-03 01:10:53 error: [Error] Class "Router" not found in /var/www/html/bookmarker/config/routes.php on line 97
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:201
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:137
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:126
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:97
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/frontend
+2024-05-03 01:10:54 error: [Error] Class "Router" not found in /var/www/html/bookmarker/config/routes.php on line 97
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:201
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:137
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:126
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:97
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /debug-kit/toolbar/b64ee145-2f08-4773-84b3-26c50c0464dd
+Referer URL: http://localhost:8765/bookmarks/tagged/frontend
+2024-05-03 01:11:31 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/frontend
+2024-05-03 01:11:37 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:13:33 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/frontend
+2024-05-03 01:14:09 error: [BadMethodCallException] Unknown finder method "tagged" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/frontend
+2024-05-03 01:14:19 error: [BadMethodCallException] Unknown finder method "tagged" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:16:08 error: [BadMethodCallException] Unknown finder method "tags" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:16:13 error: [BadMethodCallException] Unknown finder method "tags" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/frontend
+2024-05-03 01:16:27 error: [BadMethodCallException] Unknown finder method "tagged" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/frontend
+2024-05-03 01:16:48 error: [BadMethodCallException] Unknown finder method "tagged" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/frontend
+2024-05-03 01:16:50 error: [BadMethodCallException] Unknown finder method "tagged" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/frontend
+2024-05-03 01:17:13 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:17:33 error: [BadMethodCallException] Unknown finder method "tagged" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:17:58 error: [BadMethodCallException] Unknown finder method "tagged" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:18:00 error: [BadMethodCallException] Unknown finder method "tagged" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/frontend
+2024-05-03 01:18:11 error: [BadMethodCallException] Unknown finder method "tagged" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/Frontend
+2024-05-03 01:18:28 error: [BadMethodCallException] Unknown finder method "tagged" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/Frontend
+2024-05-03 01:18:37 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/Frontend
+2024-05-03 01:18:42 error: [BadMethodCallException] Unknown finder method "tagged" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tags/Frontend
+2024-05-03 01:20:33 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:21:29 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tags() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tags',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tags/Frontend
+2024-05-03 01:21:30 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tags() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tags',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tags/Frontend
+2024-05-03 01:21:39 error: [BadMethodCallException] Unknown finder method "tagged" on App\Model\Table\BookmarksTable. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2622
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1281
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:120
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tags/Frontend
+2024-05-03 01:22:21 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:22:51 error: [Cake\View\Exception\MissingTemplateException] Template file `Bookmarks/tagged.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/bookmarker/templates/Bookmarks/tagged.php`
+- `/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/Bookmarks/tagged.php`
+ in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Bookmarks/tagged.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/bookmarker/templates/',
+    1 => '/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php:807
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:790
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:569
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:23:35 error: [Cake\View\Exception\MissingTemplateException] Template file `Bookmarks/tagged.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/bookmarker/templates/Bookmarks/tagged.php`
+- `/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/Bookmarks/tagged.php`
+ in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Bookmarks/tagged.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/bookmarker/templates/',
+    1 => '/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php:807
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:790
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:569
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:23:37 error: [Cake\View\Exception\MissingTemplateException] Template file `Bookmarks/tagged.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/bookmarker/templates/Bookmarks/tagged.php`
+- `/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/Bookmarks/tagged.php`
+ in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Bookmarks/tagged.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/bookmarker/templates/',
+    1 => '/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php:807
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:790
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:569
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:24:02 error: [Cake\View\Exception\MissingTemplateException] Template file `Bookmarks/tagged.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/bookmarker/templates/Bookmarks/tagged.php`
+- `/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/Bookmarks/tagged.php`
+ in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Bookmarks/tagged.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/bookmarker/templates/',
+    1 => '/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php:807
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:790
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:569
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/comedia
+2024-05-03 01:24:19 error: [Cake\View\Exception\MissingTemplateException] Template file `Bookmarks/tagged.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/bookmarker/templates/Bookmarks/tagged.php`
+- `/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/Bookmarks/tagged.php`
+ in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Bookmarks/tagged.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/bookmarker/templates/',
+    1 => '/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php:807
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:790
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:569
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/Frontend
+2024-05-03 01:25:18 error: [Cake\View\Exception\MissingTemplateException] Template file `Bookmarks/tagged.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/bookmarker/templates/Bookmarks/tagged.php`
+- `/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/Bookmarks/tagged.php`
+ in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Bookmarks/tagged.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/bookmarker/templates/',
+    1 => '/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php:807
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:790
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:569
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/Frontend
+2024-05-03 01:25:34 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/Frontend
+2024-05-03 01:26:06 error: [Cake\View\Exception\MissingTemplateException] Template file `Bookmarks/tagged.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/bookmarker/templates/Bookmarks/tagged.php`
+- `/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/Bookmarks/tagged.php`
+ in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Bookmarks/tagged.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/bookmarker/templates/',
+    1 => '/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php:807
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:790
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:569
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/Frontend
+2024-05-03 01:28:23 error: [Cake\View\Exception\MissingTemplateException] Template file `Bookmarks/tagged.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/bookmarker/templates/Bookmarks/tagged.php`
+- `/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/Bookmarks/tagged.php`
+ in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Bookmarks/tagged.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/bookmarker/templates/',
+    1 => '/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php:807
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:790
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:569
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:30:06 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:30:20 error: [Cake\View\Exception\MissingTemplateException] Template file `Bookmarks/tagged.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/bookmarker/templates/Bookmarks/tagged.php`
+- `/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/Bookmarks/tagged.php`
+ in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Bookmarks/tagged.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/bookmarker/templates/',
+    1 => '/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php:807
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:790
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:569
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:32:37 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:32:41 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:32:59 error: [Cake\View\Exception\MissingTemplateException] Template file `Bookmarks/tagged.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/bookmarker/templates/Bookmarks/tagged.php`
+- `/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/Bookmarks/tagged.php`
+ in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Bookmarks/tagged.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/bookmarker/templates/',
+    1 => '/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php:807
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:790
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:569
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:33:07 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:34:14 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:35:18 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:35:20 error: [Cake\Controller\Exception\MissingActionException] Action BookmarksController::tagged() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'BookmarksController',
+  'action' => 'tagged',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:35:33 error: [Cake\View\Exception\MissingTemplateException] Template file `Bookmarks/tagged.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/bookmarker/templates/Bookmarks/tagged.php`
+- `/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/Bookmarks/tagged.php`
+ in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Bookmarks/tagged.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/bookmarker/templates/',
+    1 => '/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php:807
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:790
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:569
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged
+2024-05-03 01:47:24 error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php on line 539
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /users/login?redirect=%2Ftags
+Referer URL: http://localhost:8765/tags/edit/3
+2024-05-03 01:47:58 error: [ParseError] Unclosed '{' on line 13 in /var/www/html/bookmarker/src/Controller/UsersController.php on line 118
+Stack Trace:
+- /var/www/html/bookmarker/vendor/composer/ClassLoader.php:427
+- [internal]:??
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Core/App.php:161
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Core/App.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:327
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:73
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /users/login?redirect=%2Ftags
+Referer URL: http://localhost:8765/tags/edit/3
+2024-05-03 01:48:07 error: [Cake\View\Exception\MissingTemplateException] Template file `Users/login.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/html/bookmarker/templates/Users/login.php`
+- `/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/Users/login.php`
+ in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php on line 1419
+Exception Attributes: array (
+  'file' => 'Users/login.php',
+  'paths' => 
+  array (
+    0 => '/var/www/html/bookmarker/templates/',
+    1 => '/var/www/html/bookmarker/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php:807
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:790
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:569
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /users/login?redirect=%2Ftags
+Referer URL: http://localhost:8765/tags/edit/3
+2024-05-03 01:53:34 error: [Error] Call to a member function allow() on null in /var/www/html/bookmarker/src/Controller/UsersController.php on line 124
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:242
+- [internal]:??
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:88
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /users
+2024-05-03 01:53:34 warning: Unable to emit headers. Headers sent in file=/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /users
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71
+Cake\Http\ResponseEmitter->emit() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
+2024-05-03 01:53:34 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /users
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 164
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 74
+Cake\Http\ResponseEmitter->emit() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
+2024-05-03 01:53:34 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /users
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
+2024-05-03 01:53:34 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /users
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
+2024-05-03 23:17:14 error: [InvalidArgumentException] Cannot convert value of type `string` to integer in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php on line 41
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Database/Type/IntegerType.php:61
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Database/TypeConverterTrait.php:39
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Database/Statement/PDOStatement.php:96
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:124
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:188
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Database/ValueBinder.php:148
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Database/Connection.php:447
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Database/Connection.php:445
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Database/Query.php:274
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Query.php:1167
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:305
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Query.php:1115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:512
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:523
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php:1568
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:150
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Auth/ControllerAuthorize.php:95
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:503
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:299
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:248
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:661
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/tagged/Frontend
+Referer URL: http://localhost:8765/users/login?redirect=%2Fbookmarks%2Ftagged%2FFrontend
+2024-05-03 23:24:01 error: [ParseError] Unclosed '{' on line 41 does not match ')' in /var/www/html/bookmarker/src/Controller/AppController.php on line 73
+Stack Trace:
+- /var/www/html/bookmarker/vendor/composer/ClassLoader.php:427
+- /var/www/html/bookmarker/src/Controller/PagesController.php:32
+- /var/www/html/bookmarker/vendor/composer/ClassLoader.php:576
+- /var/www/html/bookmarker/vendor/composer/ClassLoader.php:427
+- [internal]:??
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Core/App.php:161
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Core/App.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:327
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:73
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /
+2024-05-03 23:24:27 error: [Error] Call to a member function allow() on null in /var/www/html/bookmarker/src/Controller/AppController.php on line 77
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:242
+- [internal]:??
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:88
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /
+2024-05-03 23:24:27 warning: Unable to emit headers. Headers sent in file=/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71
+Cake\Http\ResponseEmitter->emit() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
+2024-05-03 23:24:27 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 164
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 74
+Cake\Http\ResponseEmitter->emit() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
+2024-05-03 23:24:27 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
+2024-05-03 23:24:27 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
+2024-05-03 23:24:52 error: [Cake\Http\Exception\MissingControllerException] Controller class Logout could not be found. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Logout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Logout',
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /logout
+2024-05-03 23:43:59 error: [Cake\Http\Exception\MissingControllerException] Controller class Logout could not be found. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Logout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Logout',
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /logout
+2024-05-03 23:44:00 error: [Cake\Http\Exception\MissingControllerException] Controller class Logout could not be found. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Logout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Logout',
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /logout
+2024-05-03 23:44:15 error: [Cake\Core\Exception\CakeException] App\Controller\UsersController does not implement an isAuthorized() method. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Auth/ControllerAuthorize.php on line 89
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:503
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:299
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:248
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:661
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /users
+2024-05-03 23:44:39 error: [Cake\Core\Exception\CakeException] App\Controller\UsersController does not implement an isAuthorized() method. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Auth/ControllerAuthorize.php on line 89
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:503
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:299
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:248
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:661
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /users
+2024-05-03 23:44:45 error: [Cake\Core\Exception\CakeException] App\Controller\UsersController does not implement an isAuthorized() method. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Auth/ControllerAuthorize.php on line 89
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:503
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:299
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:248
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:661
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /users
+2024-05-03 23:48:58 error: [Cake\Core\Exception\CakeException] App\Controller\UsersController does not implement an isAuthorized() method. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Auth/ControllerAuthorize.php on line 89
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:503
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:299
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php:248
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventManager.php:309
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventManager.php:286
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:92
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:661
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:130
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /users
+2024-05-03 23:50:32 error: [Cake\Http\Exception\MissingControllerException] Controller class Logout could not be found. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Logout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Logout',
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /logout
+2024-05-03 23:50:50 error: [Cake\Http\Exception\MissingControllerException] Controller class Uses could not be found. in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 338
+Exception Attributes: array (
+  'controller' => 'Uses',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+  'class' => 'Uses',
+)
+Stack Trace:
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:75
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /uses/logout
+2024-05-04 00:22:37 error: [Error] Call to a member function allow() on null in /var/www/html/bookmarker/src/Controller/AppController.php on line 77
+Stack Trace:
+- /var/www/html/bookmarker/src/Controller/UsersController.php:123
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:242
+- [internal]:??
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:88
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /users/login?redirect=%2Fusers
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers
+2024-05-04 00:22:37 warning: Unable to emit headers. Headers sent in file=/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=37
+Request URL: /users/login?redirect=%2Fusers
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71
+Cake\Http\ResponseEmitter->emit() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
+2024-05-04 00:22:37 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /users/login?redirect=%2Fusers
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 164
+Cake\Http\ResponseEmitter->emitStatusLine() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 74
+Cake\Http\ResponseEmitter->emit() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
+2024-05-04 00:22:37 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /users/login?redirect=%2Fusers
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
+2024-05-04 00:22:37 warning: Cannot modify header information - headers already sent by (output started at /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:37)
+Request URL: /users/login?redirect=%2Fusers
+Referer URL: http://localhost:8765/users/login?redirect=%2Fusers
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter->emitHeaders() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\ResponseEmitter->emit() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 137
+Cake\Http\Server->emit() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
+2024-05-04 00:41:27 error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in /var/www/html/bookmarker/src/Controller/BookmarksController.php on line 57 and at least 1 expected in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2838
+Stack Trace:
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:57
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/add
+Referer URL: http://localhost:8765/bookmarks
+2024-05-04 00:43:38 error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in /var/www/html/bookmarker/src/Controller/BookmarksController.php on line 57 and at least 1 expected in /var/www/html/bookmarker/vendor/cakephp/cakephp/src/ORM/Table.php on line 2838
+Stack Trace:
+- /var/www/html/bookmarker/src/Controller/BookmarksController.php:57
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php:560
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php:325
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:176
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:189
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:149
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php:99
+- /var/www/html/bookmarker/webroot/index.php:40
+- [main]:
+
+Request URL: /bookmarks/add
+Referer URL: http://localhost:8765/bookmarks
+2024-05-04 00:44:39 warning: Undefined variable $users
+Request URL: /bookmarks/edit/1
+Referer URL: http://localhost:8765/bookmarks
+Trace:
+/var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php, line 1222
+Cake\View\View->_evaluate() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php, line 1179
+Cake\View\View->_render() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/View/View.php, line 810
+Cake\View\View->render() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php, line 790
+Cake\Controller\Controller->render() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/Controller.php, line 569
+Cake\Controller\Controller->invokeAction() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 140
+Cake\Controller\ControllerFactory->handle() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 115
+Cake\Controller\ControllerFactory->invoke() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 325
+Cake\Http\BaseApplication->handle() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 176
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 189
+Cake\Routing\Middleware\RoutingMiddleware->process() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Routing\Middleware\AssetMiddleware->process() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 149
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/bookmarker/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /var/www/html/bookmarker/vendor/cakephp/cakephp/src/Http/Server.php, line 99
+Cake\Http\Server->run() /var/www/html/bookmarker/webroot/index.php, line 40
+[main]
+
